@@ -5,14 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-  <title>Frontend Mentor | Intro component with sign up form</title>
   <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
 
 <body>
@@ -38,9 +36,9 @@
 
     <section id="form-section">
       <div>
-        <form action="" method="get">
+        <form action="" method="get" id="form">
           <div>
-            <input type="text" class="form-input" id="first-name" name="first-name" placeholder="First Name">
+            <input type="text" class="form-input fieldError" id="first-name" name="first-name" placeholder="First Name">
           </div>
           <div>
             <input type="text" class="form-input" name="last-name" id="last-name" placeholder="Last Name">
@@ -51,9 +49,8 @@
           <div>
             <input type="password" class="form-input" name="pass" id="password" placeholder="Password">
           </div>
+          <button type="submit" id="btn-submit">Claim your free trial</button>
         </form>
-
-        <button type="submit" id="btn-submit">Claim your free trial</button>
       </div>
 
       <div id="terms-alert">
