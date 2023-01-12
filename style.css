@@ -1,7 +1,44 @@
 * {
     font-family: 'Poppins', sans-serif;
+    padding: 5px;
 }
 
+body {
+    background-image: url('./images/bg-intro-mobile.png');
+    background-color: hsl(0, 100%, 74%);
+    font-size: 16px;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+header p {
+    font-weight: bolder;
+}
+
+#try-free {
+    display: flex;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    border-radius: 10px;
+    height: 10px;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    box-shadow: 0px 7px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+/* footer */
 .attribution {
     font-size: 11px;
     text-align: center;
