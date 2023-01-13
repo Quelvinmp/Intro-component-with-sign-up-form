@@ -9,12 +9,6 @@ body {
     font-size: 16px;
 }
 
-/* @media (min-width: 1440px) {
-    header {
-        color: red;
-    }
-} */
-
 
 header {
     color: white;
@@ -140,3 +134,26 @@ header p {
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+@media (min-width: 1440px) {
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+    }
+    .container-all{
+        width: 40%;
+        margin: auto;
+    }
+    header{
+        text-align:left;
+    }
+    header h1{
+        font-size: 60px;
+        margin: 0;
+    }
+    header h4{
+        margin: 0;
+    }
+}
